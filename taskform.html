@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <img src="TS.jpg" alt="TSIMAGE" width="1000">
+    </center>
+        <center><fieldset style="width: 1000px;">
+            <legend><strong weight="20">Application Details</strong></legend>
+           <form action="submit.html">
+            <table  width="100%" cellpadding="10" cellspacing="10">
+                <tr align="left">
+                    <td>
+                        <label for="name">Name*</label>
+                        <input type="text" name="name" id="name" maxlength="">
+                    </td>
+                     <td>
+                        <label for="Guardian's Name">Father's/Guardian's Name* </label>
+                        <input type="text" name="Guardian's Name" id="Guardian's Name">
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td>
+                        <label for="date">Date_of_birth*</label>
+                        <input type="date" name="date" id="date">
+                    </td>
+                    <td>
+                        <label for="">Gender *</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td>
+                        <label>Age as on:</label>
+                        <input type="text" name="years" size="1">Year(s)
+                        <input type="text" name="months" size="1">Month(s)
+                        <input type="text" name="days" size="1">Day(s)
+                    </td>
+                    <td>
+                        <label for="AharNo">Adhar No:</label>
+                        <input type="number" name="AdharNo" id="AdharNo" maxlength="12" minlength="12">
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td>
+                      <label for="WhatsappNo">Whatsapp No:*</label> 
+                      <input type="number" name="WhatsappNo" id="WhatsappNo"> 
+                    </td>
+                    <td>
+                        <label for="email">Email Id:*</label>
+                        <input type="email" name="email" id="email">
+                    </td>
+                </tr>
+                <tr align="left">
+                    <td>
+                        <label for="file">Photo*</label>
+                        <input type="file" name="file" id="file">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+           </form>
+            </table>
+        </fieldset>
+        <br>
+   <center>
+  <center>
+    <fieldset style="width:1000px;">
+        <legend>Residential Address Details</legend>
+        <form action="">
+            <table  width="100%" cellpadding="10" cellspacing="10">
+                <tr align="left">
+                   <td>
+                    <label for="address">Applicant's Address*</label>
+                   </td>
+            <td>
+                <Textarea name="address" id="address"></Textarea>
+            </td>
+                    <td>
+                        <label for="District">District*</label>
+                    </td>
+                    <td>
+                        <select name="District" id="District">
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Gonavaram">Gonavaram</option>
+                            <option value="Kurnool">Kurnool</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mandal">Mandal*</label>
+                    </td>
+                    <td>
+                        <select name="mandal" id="mandal">
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Gonavaram">Gonavaram</option>
+                            <option value="Kurnool">Kurnool</option>
+                        </select>
+                    </td>
+                   <td>
+                        <label for="village">Village*</label>
+                    </td>
+                    <td>
+                        <select name="village" id="village">
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Gonavaram">Gonavaarm</option>
+                            <option value="Kurnool">Kurnool</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pincode">Pincode</label>
+                    </td>
+                    <td>
+                        <input type="number" name="pincode" id="pincode">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+  </center>
+  <br>
+<center>
+    <fieldset style="width:1000px;">
+        <legend>Pass Type Details</Details></legend>
+        <form action="">
+            <table  width="100%" cellpadding="10" cellspacing="10">
+            <tr align="left">
+                    <td>
+                        <label for="city">City*</label>
+                    </td>
+                    <td>
+                        <select name="city" id="city">
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Gonavarm">Gonavaram</option>
+                            <option value="Kurnool">Kurnool</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="type">Pass Type*</label>
+                    </td>
+                    <td>
+                        <select name="type" id="type">
+                            <option value="General pass">General pass</option>
+                            <option value="Ordinary pass">Ordinary pass</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+  </center>
+<br>
+   
+        <img src="captcha.jpg" alt="">
+        <br>
+        <br>
+        <form action="submit.html">
+            <input type="text">
+            <br>
+            <br>
+            <input type="Submit" name="" id="">
+        </form>
+       
+</body>
+</html>
