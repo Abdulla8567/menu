@@ -1,0 +1,31 @@
+.container>.item{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 5px;
+    display: inline-block;
+}
+.container2>.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+.container3>.item{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+    display: inline-block;
+}
+.container>.item-1{
+    background-color: yellow;
+}
+.container>.item-7{
+    background-color:gold;
+}
+.container2>.item-7{
+    background-color:rgb(225, 205, 94);
+}
+

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0px; /* equal to nav height */
+    background-color: white;
+}
+.nav-container{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    position: fixed;
+    display: inline-block;
+    z-index: 1000;
+}
+.br-container{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.right-container{
+    display: inline-block;
+    position: absolute;
+    top: 15px;;
+    right: 30px;
+    word-spacing: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.BR{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.architect{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: xx-large;
+    color: white;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.projects {
+    position: relative;
+    background-color: white;
+    margin-left: 15px;
+    padding: 15px;
+}
+.new-image{
+    position: relative;
+    top: 0;
+    left: 20px;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+}
+.image-card{
+    width: 100%;
+    height: 100%;
+}
+.inner-img{
+    position:absolute;
+    padding: 7px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.about {
+    position: relative;
+    background-color: white;
+    margin-left: 15px;
+    padding: 15px;
+}
+.p{
+    position: relative;
+    margin-left: 15px;
+    padding: 15px;
+    font-size: large;
+   
+
+}
+.images2{
+    position: relative;
+    top: 0;
+    left: 20px;
+    margin: 5px;
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.button1{
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
